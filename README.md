@@ -1,5 +1,8 @@
 # my-app
  full stack assignment
+ 
+ 
+ 
 Assignment : 
 
 Your task is to create the above table UI using React JS and Build a backend using Python/NodeJS(Database of your choice) with the functionalities mentioned below. Your assignment will be judged based on the code quality, modularity, reusability and readability. UI (CSS) can be designed as per your own taste but should be neat and clean to look at. You can use dummy Data but it needs to be stored in a Database. 
