@@ -1,0 +1,57 @@
+/* app.css */
+
+/* Pink background for the jumbotron */
+
+/* White font color for the jumbotron */
+.jumbotron h1 {
+  color: pink;
+}
+
+/* Custom margin and padding for the container */
+.container {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/* Custom background color for the search input */
+.form-control {
+  background-color: pink;
+}
+
+/* Custom font color for the search input placeholder */
+.form-control::placeholder {
+  color: white;
+}
+
+/* Pink background for the table header cells */
+div[data-testid="table"] thead tr th {
+  background-color: pink !important;
+  color: white; /* White font color for the table header cells */
+}
+
+/* Custom font size for the table cells */
+div[data-testid="table"] tbody tr td {
+  font-size: 15px;
+}
+
+/* Enlarge the table to fill the complete webpage */
+.container-fluid {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  flex: 1;
+}
+
+.custom-footer-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.custom-footer {
+  display: inline-block;
+}
